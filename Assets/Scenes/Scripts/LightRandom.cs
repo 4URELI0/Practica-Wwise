@@ -6,7 +6,7 @@ public class LightRandom : MonoBehaviour
 {
     public Light focoLight;
     public float encendidoDuration = 2.0f;
-    public int cantidadParpadeos = 2;
+    public int cantidadParpadeos = 5;
     public float parpadeoIntervalo = 0.5f;
 
     private void Start()
