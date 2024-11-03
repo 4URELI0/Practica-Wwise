@@ -4,25 +4,33 @@ using UnityEngine;
 public class Semaforo : MonoBehaviour
 {
     public Light[] lights;
-    public float delay = 1.0f;
+    private int currentIndex = 0;
+    public float greenDuration = 5.0f, yellowDuration = 2.0f, redDuration = 5.0f;
 
     private void Start()
     {
-        StartCoroutine(ChangedLightRandom());
+        StartCoroutine(ChangeLights());
     }
-    IEnumerator ChangedLightRandom()
+    private IEnumerator ChangeLights()
     {
-
-        int index = Random.Range(0, lights.Length);
-        OffAllLight();
-        lights[index].enabled = true;
-        yield return new WaitForSeconds(delay);
-    }
-    private void OffAllLight()
-    {
-        foreach (Light light in lights)
+        while (true)
         {
-            light.enabled = false;
+            foreach (Light light in lights)
+            {
+                light.enabled = false;
+            }
+            lights[currentIndex].enabled = true;
+            float duration = greenDuration;
+
+            if (currentIndex == 1)
+            {
+                duration = yellowDuration;
+            }else if (currentIndex == 2)
+            {
+                duration = redDuration;
+            }
+            yield return new WaitForSeconds(duration);
+            currentIndex = (currentIndex + 1) % lights.Length;
         }
     }
 }
