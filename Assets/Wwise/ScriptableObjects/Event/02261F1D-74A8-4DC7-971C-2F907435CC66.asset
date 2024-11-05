@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba7c8a77f1dd2c24d920baf116646b3f, type: 3}
+  m_Name: 02261F1D-74A8-4DC7-971C-2F907435CC66
+  m_EditorClassIdentifier: 
+  objectName: SoundTest1
+  id: 3660352927
+  guid: 02261F1D-74A8-4DC7-971C-2F907435CC66

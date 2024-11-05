@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3660352927	SoundTest1			\Default Work Unit\SoundTest1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	71010836	Music1	C:\Users\array\OneDrive\Escritorio\Unity\PrototipoLinterna\PrototipoLinterna_WwiseProject\.cache\Mac\SFX\Music1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music1		42016700
+

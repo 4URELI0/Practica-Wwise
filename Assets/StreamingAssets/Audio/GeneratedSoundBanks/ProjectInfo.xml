@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="PrototipoLinterna_WwiseProject" GUID="{EC0B54A3-DAC6-4054-99C4-4C5058A4DB1A}" Generator="2023.1.8.8601"/>
+	<CacheRoot>../../../../PrototipoLinterna_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{399B4D47-5688-4041-95BC-71B761CD9D16}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../PrototipoLinterna_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{7619FE84-BE09-491E-8652-4C3333064BE7}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../PrototipoLinterna_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{F27E50AE-E7D6-4F80-B253-9370EF5C0356}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{31963F9E-BB4E-1EA1-1322-58022F97DDD1}</FileHash>
+</ProjectInfo>
